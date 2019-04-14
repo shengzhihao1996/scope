@@ -34,14 +34,11 @@ Add custom details or interactions for your hosts, containers, and/or processes 
 ## <a name="getting-started"></a>Getting Started
 
 ```console
-sudo curl -L git.io/scope -o /usr/local/bin/scope
-sudo chmod a+x /usr/local/bin/scope
-scope launch
+安装git、docker
+make编译
 ```
 
-This script downloads and runs a recent Scope image from Docker Hub.
-Now, open your web browser to **http://localhost:4040**. (If you're using
-boot2docker, replace localhost with the output of `boot2docker ip`.)
+
 
 For instructions on installing Scope on [Kubernetes](https://www.weave.works/docs/scope/latest/installing/#k8s), [DCOS](https://www.weave.works/docs/scope/latest/installing/#dcos), or [ECS](https://www.weave.works/docs/scope/latest/installing/#ecs), see [the docs](https://www.weave.works/docs/scope/latest/introducing/).
 
